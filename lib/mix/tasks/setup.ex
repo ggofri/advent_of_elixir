@@ -96,7 +96,7 @@ defmodule Mix.Tasks.Setup do
           assert Year#{year}.Day#{day_str}.solve_01('') == :none
         end
 
-        test "(Day #{day_str} - Challenge 1) works with sample input" do
+        test "(Day #{day_str} - Challenge 1) works with final input" do
           {:ok, input} = File.read("assets/year_#{year}/day_#{day_str}/final_input_#{challenge}.txt")
           assert Year#{year}.Day#{day_str}.solve_01(input) == :none
         end
@@ -105,7 +105,7 @@ defmodule Mix.Tasks.Setup do
           assert Year#{year}.Day#{day_str}.solve_02("") == :none
         end
 
-        test "(Day #{day_str} - Challenge 2) works with sample input" do
+        test "(Day #{day_str} - Challenge 2) works with final input" do
           {:ok, input} = File.read("assets/year_#{year}/day_#{day_str}/final_input_#{challenge}.txt")
           assert Year#{year}.Day#{day_str}.solve_02(input) == :none
         end
