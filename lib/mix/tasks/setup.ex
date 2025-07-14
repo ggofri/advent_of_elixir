@@ -62,7 +62,7 @@ defmodule Mix.Tasks.Setup do
   end
 
   defp create_challenge_files(year, day_str) do
-    Enum.each([1, 2], fn challenge ->
+    Enum.each([1, 2], fn _ ->
       challenge_content = """
       defmodule Year#{year}.Day#{day_str} do
         @moduledoc \"\"\"
@@ -81,7 +81,7 @@ defmodule Mix.Tasks.Setup do
       end
       """
 
-      File.write!("lib/year_#{year}/day_#{day_str}/challenge_#{challenge}.ex", challenge_content)
+      File.write!("lib/year_#{year}/day_#{day_str}.ex", challenge_content)
     end)
   end
 
@@ -112,7 +112,7 @@ defmodule Mix.Tasks.Setup do
       end
       """
 
-      File.write!("test/year_#{year}/day_#{day_str}/challenge_#{challenge}_test.exs", test_content)
+      File.write!("test/year_#{year}/day_#{day_str}_test.exs", test_content)
     end)
   end
 
