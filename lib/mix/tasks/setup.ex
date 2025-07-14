@@ -102,7 +102,7 @@ defmodule Mix.Tasks.Setup do
         end
 
         test "(Day #{day_str} - Challenge 2) works with sample input" do
-          assert Year#{year}.Day#{day_str}.solve_02('') == :none
+          assert Year#{year}.Day#{day_str}.solve_02("") == :none
         end
 
         test "(Day #{day_str} - Challenge 2) works with sample input" do
