@@ -10,7 +10,7 @@ This repository documents my adventure learning Elixir while tackling 500 progra
 **Experience Level**: Beginner in Elixir (learning as I go!)  
 **Total Challenges**: 500 puzzles (10 years * 25 days * 2 challenges per day)  
 **Documentation**: Full journey documented across social platforms
-**Mandatory rule**: Each challenge should have it's own tests passing to be considered as done
+**Mandatory rule**: Each challenge should have its own tests passing to be considered as done
 
 ## 🚀 Follow My Journey
 
