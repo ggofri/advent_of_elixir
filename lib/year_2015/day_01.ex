@@ -12,7 +12,7 @@ defmodule Year2015.Day01 do
   defp find_basement(_input, level, iterations) when level == -1 do
     iterations
   end
-  defp find_basement(input, _level, _iterations) when input.length < 1 do
+  defp find_basement(input, _level, _iterations) when length(input) == 0 do
     0
   end
   defp find_basement(input, level, iterations) do
