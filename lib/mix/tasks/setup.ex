@@ -93,7 +93,7 @@ defmodule Mix.Tasks.Setup do
         doctest Year#{year}.Day#{day_str}
 
         test "(Day #{day_str} - Challenge 1) works with sample input" do
-          assert Year#{year}.Day#{day_str}.solve_01('') == :none
+          assert Year#{year}.Day#{day_str}.solve_01("") == :none
         end
 
         test "(Day #{day_str} - Challenge 1) works with final input" do
