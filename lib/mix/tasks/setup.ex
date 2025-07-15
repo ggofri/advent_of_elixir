@@ -86,34 +86,32 @@ defmodule Mix.Tasks.Setup do
   end
 
   defp create_test_files(year, day_str) do
-    Enum.each([1, 2], fn challenge ->
-      test_content = """
-      defmodule Year#{year}.Day#{day_str}Test do
-        use ExUnit.Case
-        doctest Year#{year}.Day#{day_str}
+    test_content = """
+    defmodule Year#{year}.Day#{day_str}Test do
+      use ExUnit.Case
+      doctest Year#{year}.Day#{day_str}
 
-        test "(Day #{day_str} - Challenge 1) works with sample input" do
-          assert Year#{year}.Day#{day_str}.solve_01("") == :none
-        end
-
-        test "(Day #{day_str} - Challenge 1) works with final input" do
-          {:ok, input} = File.read("assets/year_#{year}/day_#{day_str}/final_input_#{challenge}.txt")
-          assert Year#{year}.Day#{day_str}.solve_01(input) == :none
-        end
-
-        test "(Day #{day_str} - Challenge 2) works with sample input" do
-          assert Year#{year}.Day#{day_str}.solve_02("") == :none
-        end
-
-        test "(Day #{day_str} - Challenge 2) works with final input" do
-          {:ok, input} = File.read("assets/year_#{year}/day_#{day_str}/final_input_#{challenge}.txt")
-          assert Year#{year}.Day#{day_str}.solve_02(input) == :none
-        end
+      test "(Day #{day_str} - Challenge 1) works with sample input" do
+        assert Year#{year}.Day#{day_str}.solve_01("") == :none
       end
-      """
 
-      File.write!("test/year_#{year}/day_#{day_str}_test.exs", test_content)
-    end)
+      test "(Day #{day_str} - Challenge 1) works with final input" do
+        {:ok, input} = File.read("assets/year_#{year}/day_#{day_str}/final_input_1.txt")
+        assert Year#{year}.Day#{day_str}.solve_01(input) == :none
+      end
+
+      test "(Day #{day_str} - Challenge 2) works with sample input" do
+        assert Year#{year}.Day#{day_str}.solve_02("") == :none
+      end
+
+      test "(Day #{day_str} - Challenge 2) works with final input" do
+        {:ok, input} = File.read("assets/year_#{year}/day_#{day_str}/final_input_2.txt")
+        assert Year#{year}.Day#{day_str}.solve_02(input) == :none
+      end
+    end
+    """
+
+    File.write!("test/year_#{year}/day_#{day_str}_test.exs", test_content)
   end
 
   defp create_asset_files(year, day) do
