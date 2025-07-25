@@ -2,25 +2,14 @@
 
 Welcome to my journey through **10 years of Advent of Code** challenges, all solved in **Elixir**! 
 
-This repository documents my adventure learning Elixir while tackling 500 programming puzzles from Eric Wastl's excellent [Advent of Code](https://adventofcode.com/) before 2025 edition!.
+This repository documents my adventure learning Elixir while tackling 500 programming puzzles from Eric Wastl's excellent [Advent of Code](https://adventofcode.com/)!.
 
 ## 🎯 Challenge Overview
 
 **Goal**: Complete all Advent of Code challenges from 2015 to 2024 using Elixir  
 **Experience Level**: Beginner in Elixir (learning as I go!)  
 **Total Challenges**: 500 puzzles (10 years * 25 days * 2 challenges per day)  
-**Documentation**: Full journey documented across social platforms
 **Mandatory rule**: Each challenge should have its own tests passing to be considered as done
-
-## 🚀 Follow My Journey
-
-I'm documenting this entire process across multiple platforms:
-
-- 📱 **Instagram**: Daily progress updates and code snippets
-- 💼 **LinkedIn**: Weekly reflections and learning insights  
-- 📺 **YouTube**: Detailed walkthroughs and problem-solving sessions
-- 🐦 **X (Twitter)**: Quick updates and Elixir tips
-- 📖 **GitHub**: Complete code repository with detailed explanations
 
 ## 📊 Progress Tracker
 
@@ -29,8 +18,8 @@ Legend:
 - 🟥 In progress (tests failing)
 - 🟩 Completed (tests passing)
 
-⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️  
-⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ 
+🟩 🟩 🟩 ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️  
+🟩 🟩 🟩 ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ 
 
 ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️  
 ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️ ⬜️  
@@ -133,26 +122,7 @@ Throughout this journey, I'm using these resources to learn Elixir:
 
 But during the challenges, I can only use [Elixir Official Documentation](https://elixir-lang.org/docs.html).
 
-## 🎓 Key Elixir Concepts Learned
-
-## 🤝 Contributing
-
-While this is primarily a personal learning journey, I welcome:
-
-- Bug reports and fixes
-- Alternative solution approaches
-- Elixir best practices suggestions
-
-Please feel free to open issues or pull requests!
-
 ## 🏆 Stats
 
-**Current Progress**: 0/250 challenges completed  
+**Current Progress**: 6/500 challenges completed  
 **Start Date**: Jul 14, 2025
-**Days left**: 140  
-
----
-
-⭐ **Star this repo** if you're following along with my journey!
-
-*"The best way to learn is to teach, and the best way to teach is to document your learning."*
